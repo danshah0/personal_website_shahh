@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GET TO KNOW ME</title>
+
+	<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: pacifico, montserrat;
+}
+
+
+           body {
+           	min-height: 100vh;
+           	background: linear-gradient(135deg, #663300, #000000);
+           	color: white;
+           }
+
+body {
+	min-height: 100vh;;
+	background: radial-gradient(circle at top, #4b0000, #000000);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px;
+}
+.navbar {
+	    position: absolute;
+	    top: 40px;
+	    right: 60px;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    font-size: 14px;
+	    letter-spacing: 2px;
+        }
+        .navbar a {
+        	color: white;
+        	text-decoration: none;
+        	margin-left: 25px;
+        }
+.about-container {
+	display: flex;
+	gap: 80px;
+	max-width: 1200px;
+	width: 100%;
+	align-items: center;
+}
+.about-image img {
+	width: 350px;
+	height: auto;
+}
+
+.about-title {
+	flex: 1.2;
+}
+
+.about-title {
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+
+.info-card {
+	background: rgba(255, 255, 255, 0.08);
+	border-radius: 20px;
+	padding: 20px 25px;
+	margin-bottom: 20px;
+}
+.info-card u1 {
+	margin-left: 20px;
+}
+audio {
+	width: 100%;
+}
+
+@media (max-width: 900px) {
+	.about-container {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+	<div class="menu">
+		<a href="index.html">HOME</a>
+		<a href="aboutme.html">ABOUT ME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="edupage.html">EDUCATION</a>
+        <a href="exppage.html">EXPERIENCES</a>
+        <a href="contactme.html">CONTACT</a>
+	</div>
+</div>
+
+<div class="about-container">
+	<div class="about-image">
+		<img src="images/shah2.jpg" alt="Shah">
+	</div>
+
+	<div class="about-content">
+		<h1 class="about-title">ABOUT ME</h1>
+		<div class="info-card">
+			<p>
+				Name : Muhammad Danial Shah bin Mohd Zabry<br>
+				Date Of birth : 15 June 2005<br>
+				Address : Kampung Gong Tok Nasek, Kuala Terengganu<br>
+				Email : 2023290686@student.uitm.edu.my<br>
+				Phone : 0195274536<br>
+				Hobby : Listening to music<br>
+			</p>
+		</div>
+		
+		<div class="info-card">
+			<h3>Little Things About Me :</h3><br>
+			<ul>
+				<li>I love to heal and recharge by spending time in nature, finding peace in its calm and beauty</li>
+				<li>I treasure moments with my family and friends, making the most of my free time with them</li>
+				<li>Listening to songs let me express my creativity and see the world in my own way</li>
+			</ul>	
+		</div>
+		<div class="audio-box">
+			<p>My favourite song</p>
+			<audio controls>
+				<source src="audio/song1.mp3" type="audio/mp3">
+			</audio>
+			
+		</div>
+	</div>
+	
+</div>
+
+</body>
+</html>
