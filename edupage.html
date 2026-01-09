@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WHERE I'VE STUDIED</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Georgia", serif;
+}
+body {
+	min-height: 100vh;
+	background: linear-gradient(135deg, #3a0000, #000000);
+	color: white;
+	padding: 60px;
+}
+
+.navbar {
+	     position: absolute;
+	     top: 40px;
+	     right: 60px;
+	     display: flex;
+	     justify-content: space-between;
+	     align-items: center;
+	     font-size: 14px;
+	     letter-spacing: 2px;
+        }
+        .navbar a{
+        	color: white;
+        	text-decoration: none;
+        	margin-left: 25px;
+        }
+.education-title {
+	font-size: 56px;
+	margin-bottom: 60px;
+	letter-spacing: 2px;
+}
+
+.education-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+.education-card img {
+	width: 100%;
+	height: 280px;
+	object-fit: contain;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+.education-number {
+	font-size: 28px;
+	opacity: 0.8;
+	margin-bottom: 10px;
+}
+.education-card h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.education-card p{
+	font-size: 14px;
+	line-height: 1.6;
+	opacity: 0.75;
+	margin-bottom: 15px;
+}
+.education-card a{
+	font-size: 13px;
+	letter-spacing: 1px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	padding-bottom: 3px;
+}
+
+.education-card a:hover {
+	opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+	.education-grid {
+		grid-template-columns: 1fr;
+	}
+	.education-title {
+		font-size: 40px;
+		text-align: center;
+	}
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+	<div class="menu">
+		<a href="index.html">HOME</a>
+		<a href="aboutme.html">ABOUT ME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="edupage.html">EDUCATION</a>
+        <a href="exppage.html">EXPERIENCES</a>
+        <a href="contactme.html">CONTACT</a>
+	</div>
+</div>
+
+<h1 class="education-title">EDUCATION</h1>
+<div class="education-grid">
+
+	<div class="education-card">
+		<img src="images/skpp.jpg" alt="School 1">
+		<div class="education-number">01</div>
+		<h3>Sekolah Kebangsaan Pasir Panjang, Kuala Terengganu</h3>
+		<p>
+			This school shaped my early academic journey and helped me build strong foundations in creativity, discipline, and learning.
+		</p>
+		<a href="https://www.facebook.com/p/SK-Pasir-Panjang-Kuala-Terengganu-61553082442644/" target="_blank">Visit School Online Platform</a>
+	</div>
+
+	<div class="education-card">
+		<img src="images/smktb.jpg" alt="School 2">
+		<div class="education-number">02</div>
+		<h3>Sekolah Menengah Kebangsaan Tengku Bariah, Kuala Terengganu</h3>
+		<p>
+			Here I expanded my knowledge, explored new interests, and developed skills that influenced my future direction.
+		</p>
+		<a href="https://www.instagram.com/smk_tengkubariah?igsh=Ync5cXlpZXczcWU5" target="_blank">Visit School Online Platform</a>
+	</div>
+
+	<div class="education-card">
+		<img src="images/uitm.png" alt="School 3">
+		<div class="education-number">03</div>
+		<h3>Universiti Teknologi Mara, Kampus Machang, Kelantan</h3>
+		<p>
+			This institution allowed me to grow creatively and academically, shaping my passion and preparing me for real-world challenges.
+		</p>
+		<a href="https://kelantan.uitm.edu.my/index.php/en/" target="_blank">Visit University Official Website</a>
+	</div>
+	
+</div>
+
+</body>
+</html>
