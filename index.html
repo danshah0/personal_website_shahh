@@ -1,0 +1,145 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WELCOME TO SHAH'S PAGE</title>
+
+<style>
+    {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: "georgia", serif;
+    }
+
+    body {
+        min-height: 100vh;
+        background: radial-gradient(circle at center, #3a0000, #000000);
+        color: white;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 40px;
+        left: 60px;
+        right: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin-left: 25px;
+    }
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 60px;
+    }
+    .hero-content {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .hero-image {
+        flex: 1;
+        max-width: 360px;
+    }
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 22px;
+        object-fit: cover;
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    }
+    .hero-text {
+        flex: 1;
+        max-width: 600px;
+        text-align: left;
+    }
+    .hero-text h2 {
+        letter-spacing: 2px;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .hero-text h1 {
+        font-size: 76%;
+        margin: 20px 0;
+        line-height: 1.05;
+    }
+    .hero-text p {
+        font-size: 14px;
+        line-height: 1.8;
+        opacity: 0.85;
+        margin-bottom: 35px;
+    }
+
+    .hero-text a.button {
+        display: inline-block;
+        padding: 12px 34px;
+        border: 1px solid white;
+        border-radius: 30px;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 12px;
+        transition: 0.3s;
+    }
+    .hero-text a.button:hover {
+        background: white;
+        color: black;
+    }
+
+    @media (max-width: 900px) {
+        .hero-content {
+            flex-direction: column;
+            text-align: center;
+            gap: 40px;
+        }
+        .hero-text {
+            text-align: center;
+        }
+    }
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Shah</div>
+
+        <div class="menu">
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="edupage.html">EDUCATION</a>
+            <a href="exppage.html">EXPERIENCES</a>
+            <a href="contactme.html">CONTACT</a>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/shah.jpg" alt="My pics" width="300" height="300">
+            </div>
+            <div class="hero-text">
+                <h2>LETS GET TO</h2>
+                <h1>KNOW ME</h1>
+
+                <p style="text-align: justify;">
+                This website was developed as part of an academic assignment. It aims to introduce myself while providing information about my background, education, family, and experiences as a student. The creation of this website allows me to apply the skills and knowledge I have acquired during my studies, particularly in the areas of basic web design and information management. Through this platform, I hope visitors can gain a better understanding of who I am and my journey as a student. This website also serves as a space to demonstrate my creativity and learning development in a clear and organised format. Thank you for visiting my website. Your time and interest are sincerely appreciated, and I hope you find the content informative and enjoyable
+                </p>
+                <a href="aboutme.html" class="button">TO KNOW ME</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
