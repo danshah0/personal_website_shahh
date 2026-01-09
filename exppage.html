@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EXPERIENCE LANE</title>
+<style>
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Georgia", serif;
+}
+
+body {
+	min-height: 100vh;
+	background: radial-gradient(circle at top, #4b0000, #000000);
+	color: white;
+	padding: 80px 60px;
+}
+
+.navbar {
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .navbar a {
+        	color: white;
+        	text-decoration: none;
+        	margin-left: 25px;
+        }
+
+.section-title {
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+
+.grid {
+	display: grid;
+	grid-auto-columns: repeat(auto-fit, minmax) repeat(260px, 1fr);
+	gap: 40px;
+	margin-bottom: 90px;
+}
+.card {
+	background: rgba(255, 255, 255, 0.06);
+	border-radius: 24px;
+	padding: 25px;
+	text-align: center;
+	backdrop-filter: blur(6px);
+}
+
+.image-box {
+	width:100% ;
+	height: 220px;
+	border-radius: 18px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.image-box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	animation: floatToggle 6s ease-in-out infinite;
+}
+
+.card h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 14px;
+	opacity: 0.85;
+	line-height: 1.6;
+}
+
+@keyframes floatToggle {
+	0% {
+		transform: translate(0,0);
+	}
+	25% {
+		transform: translate(4px, -6px);
+	}
+	50% {
+		transform: translate(-4px, -3px);
+	}
+	75% {
+		transform: translate(3px, 4px);
+	}
+	100% {
+		transform: translate(0,0);
+	}
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+	<div class="menu">
+		<a href="index.html">HOME</a>
+		<a href="aboutme.html">ABOUT ME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="edupage.html">EDUCATION</a>
+        <a href="exppage.html">EXPERIENCES</a>
+        <a href="contactme.html">CONTACT</a>
+	</div>
+</div>
+
+<h2 class="section-title">MY EXPERIENCE</h2>
+
+<div class="grid">
+
+
+	<div class="card">
+		<div class="image-box">
+			
+			<img src="images/intern.jpg" alt="Experience">
+		</div>
+
+		<h3>Internship Experience</h3>
+		<p>
+			I completed a two-month internship at Arkib Negara Malaysia, Kuala Terengganu, where I gained hands-on experience in archival operations and administrative tasks. During this internship, I learned how a government institution functions, particularly in managing, preserving, and safeguarding archival records to ensure their long-term accessibility and historical value.
+		</p>
+	</div>
+
+</div>
+
+<h2 class="section-title">MY ACHIEVEMENTS</h2>
+<div class="grid">
+	
+
+
+	<div class="card">
+		<div class="image-box">
+			<img src="images/sijil1.jpg" alt="Achievement 1">
+		</div>
+		<h3>Certificate 1</h3>
+		<p>
+			Gained a certificate upon completing industrial training at Arkib Negara Malaysia, Negeri Terengganu, where I acquired hands-on experience in archival management, record preservation, and understanding best practices in safeguarding official and historical records.
+		</p>
+	</div>
+
+	<div class="card">
+		<div class="image-box">
+			<img src="images/sijil2.jpg" alt="Achievement 2">	
+		</div>
+		<h3>Certificate 2</h3>
+		<p>
+			Completed the Record Preservation Workshop and was awarded a certificate, gaining practical knowledge and skills in records conservation and preservation techniques.
+		</p>
+	</div>
+</div>
+	
+
+
+</body>
+</html>
